@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deployment", "Deployment", 
 		webapp-sql-template.parameter.json = webapp-sql-template.parameter.json
 	EndProjectSection
 EndProject
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "Insight.Tech.LogicApp", "Insight.Tech.LogicApp\Insight.Tech.LogicApp.deployproj", "{05465163-BC5D-4654-B1D3-2A086A65C28D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{17284C88-D078-4A57-ACF6-23602A08E047}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17284C88-D078-4A57-ACF6-23602A08E047}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17284C88-D078-4A57-ACF6-23602A08E047}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05465163-BC5D-4654-B1D3-2A086A65C28D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05465163-BC5D-4654-B1D3-2A086A65C28D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05465163-BC5D-4654-B1D3-2A086A65C28D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05465163-BC5D-4654-B1D3-2A086A65C28D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
