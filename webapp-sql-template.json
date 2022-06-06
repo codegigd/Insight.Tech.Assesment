@@ -131,7 +131,7 @@
           "type": "firewallrules",
           "name": "AllowAllWindowsAzureIps",
           "apiVersion": "2014-04-01-preview",
-          "location": "[parameters('databaseLocation')]",
+          "location": "[resourceGroup().location]",
           "properties": {
             "endIpAddress": "0.0.0.0",
             "startIpAddress": "0.0.0.0"
